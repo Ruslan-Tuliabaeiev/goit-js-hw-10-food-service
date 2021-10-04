@@ -36,43 +36,7 @@ const Theme = {
     localStorage.setItem('theme', theme)
   }
   document.querySelector('body').classList.add(theme)
-  //  checkboxBtn.checked = theme === Theme.LIGHT ? false : true ;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  //   if (e.target.checked) {
-      
-  //     localStorage.setItem('theme', Theme.DARK)
-  //     document.querySelector('body').classList.add(Theme.LIGHT, Theme.DARK)
-  //   } else {
-      
-  //     localStorage.removeItem('theme')
-  //     document.querySelector('body').classList.remove(Theme.LIGHT, Theme.DARK)
-  //   }
-  //   //   ========= 1 ==========
-  // });
-  // let theme = localStorage.getItem('theme')
-  // // //   ========= 1 ==========
-  // console.log('theme by LS:', theme)
-  // if (theme) {
-  //   document.querySelector('body').classList.add(Theme.DARK)
-  //   checkboxBtn.checked = true
-  // } else {
-  //   document.querySelector('body').classList.remove(Theme.DARK)
-  //   checkboxBtn.checked = false
-  // };
-
+  themeDarkLight.checked = theme === Theme.LIGHT ? false : true ;
 
 
 // слушатели событий
